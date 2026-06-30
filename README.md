@@ -33,10 +33,10 @@ could affect LLM-assisted peer review.
   to the same output file concurrently; use separate --out per shard)
 
 ## Dependencies:
-  pip install PyMuPDF tqdm pandas
+  `pip install PyMuPDF tqdm pandas`
 Optional:
-  pip install rapidfuzz  (faster/better fuzzy matching)
+  `pip install rapidfuzz`  (faster/better fuzzy matching)
 
 ## Usage:
-  python scan_pdfs_in_folder_expansion.py --input_dir /path/to/pdfs --out findings.csv
-  python scan_pdfs_in_folder_expansion.py --input_dir /path --out findings.csv --shard_count 4 --shard_index 0
+  `python scan_pdfs_in_folder_expansion.py --input_dir /path/to/pdfs --out findings.csv`
+  `python scan_pdfs_in_folder_expansion.py --input_dir /path --out findings.csv --shard_count 4 --shard_index 0`
