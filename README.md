@@ -39,4 +39,5 @@ Optional:
 
 ## Usage:
   `python scan_pdfs_in_folder_expansion.py --input_dir /path/to/pdfs --out findings.csv`
+  
   `python scan_pdfs_in_folder_expansion.py --input_dir /path --out findings.csv --shard_count 4 --shard_index 0`
